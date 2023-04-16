@@ -1,0 +1,51 @@
+.calendar {
+}
+
+.mantine-Modal-body {
+  padding-right: 0px;
+}
+
+.monthLevelGroup {
+  flex-direction: column;
+}
+
+.mantine-ScrollArea-scrollbar {
+  display: none;
+}
+
+.calendarHeaderControlIcon {
+  display: none;
+}
+
+.calendarHeader {
+  pointer-events: none;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+.mantine-Popover-dropdown {
+  overflow: scroll;
+  height: 31rem;
+  scrollbar-width: 0px;
+  --radix-scroll-area-corner-width: 0px;
+  --radix-scroll-area-corner-height: 0px;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.mantine-Popover-dropdown {
+  scrollbar-width: 0px !important;
+}
+
+/* hide scrollbar but allow scrolling */
+element {
+  -ms-overflow-style: none !important; /* for Internet Explorer, Edge */
+  scrollbar-width: none !important; /* for Firefox */
+  overflow-y: scroll !important;
+}
+
+element::-webkit-scrollbar {
+  display: none !important; /* for Chrome, Safari, and Opera */
+}
